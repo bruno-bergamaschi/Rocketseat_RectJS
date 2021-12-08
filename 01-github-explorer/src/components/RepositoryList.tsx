@@ -4,8 +4,14 @@ import { useEffect, useState } from 'react';
 
 //https://api.github.com/users/bruno-bergamaschi/repos
 
+interface IRepository {
+	name: string;
+	description: string;
+	html_url: string;
+}
+
 export function RepositoryList() {
-	const [repositories, setRepositories] = useState([]);
+	const [repositories, setRepositories] = useState<IRepository[]>([]);
 
 	useEffect(() => {
 		fetch('https://api.github.com/users/bruno-bergamaschi/repos')
