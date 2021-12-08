@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		// Adiciona algumas fucnionalidades, teremos tipagem que antes não teria
+		"lib": ["dom", "dom.iterable", "esnext"],
+		// Permite arquivos JS e JSX
+		"allowJs": true,
+		// Informa que estamos utilizando JSX
+		"jsx": "react-jsx",
+		// Para caso execute o build da aplicação, não emitir o código.
+		"noEmit": true,
+		// Para entrar no modo strict do JS
+		"strict": true,
+		// Adiciona a possibilidade de importar arquivos JSON
+		"resolveJsonModule": true,
+		"moduleResolution": "node",
+		"isolatedModules": true,
+		"allowSyntheticDefaultImports": true,
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"skipLibCheck": true
+	},
+	// Onde nossa aplicação vai estar
+	"include": ["src"]
+}
