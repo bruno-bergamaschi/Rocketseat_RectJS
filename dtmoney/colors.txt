@@ -1,7 +1,0 @@
-blue: #5429CC;
-green: #33CC95;
-red: #E62E4D;
-shape principal: #FFFFFF;
-títulos: #363F5F;
-textos: #969CB3;
-background: #F0F2F5;
